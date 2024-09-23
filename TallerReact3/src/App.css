@@ -1,0 +1,60 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contador {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #007bff;
+  background-color: #e6f7ff;
+  color: #004085;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.contador:hover {
+  transform: scale(1.02);
+}
+
+.ciclo-vida {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #007bff;
+  background-color: #e6f7ff;
+  color: #004085;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.ciclo-vida:hover {
+  transform: scale(1.02);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
